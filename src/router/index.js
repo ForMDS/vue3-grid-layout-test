@@ -9,6 +9,11 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
+    {
+      path: '/rich-text',
+      name: 'rich-text',
+      component: () => import('../views/RichTextView.vue'),
+    },
   ],
 })
 

@@ -15,4 +15,13 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  css: {
+      preprocessorOptions: {
+        less: {
+          javascriptEnabled: true,
+          // 可在这里配置全局 less 变量文件
+          additionalData: ``
+        }
+      },
+    }
 })
