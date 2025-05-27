@@ -12,7 +12,7 @@ const router = createRouter({
     {
       path: '/rich-text',
       name: 'rich-text',
-      component: () => import('../views/RichTextView.vue'),
+      component: () => import('../views/rich-test/RichTextView.vue'),
     },
   ],
 })
